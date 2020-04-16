@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+  color: #222;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+  text-align: left;
+  width: 40%;
+  border: 2px solid black;
+  padding-left: 20px;
+}
+p {
+  font-weight: 500;
+}
+.main h2 {
+  margin: 0;
+  padding: 0;
+}
+.main p {
+  margin-top: 0;
+}
+.tempLoc p {
+  margin: 4px auto;
+}
+.tempLoc :last-child {
+  margin-bottom: 20px;
+}
+
+.submitBtn {
+  padding: 10px 20px;
+  color: #fff;
+  border: none;
+  background-color: #333;
+  margin-left: 20px;
+  font-size: 16px;
+}
+
+.inputCity {
+  padding: 10px;
+}
