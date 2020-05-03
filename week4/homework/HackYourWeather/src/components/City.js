@@ -22,8 +22,8 @@ export default function City({ city, deleteCity }) {
           <p>{city.weather[0].description}</p>
         </div>
         <div className="tempLoc">
-          <p>min temp: {Math.floor((city.main.temp_min - 273) * 10) / 10} °C</p>
-          <p>max temp: {Math.floor((city.main.temp_min - 273) * 10) / 10} °C</p>
+          <p>min temp: {city.main.temp_min} °C</p>
+          <p>max temp: {city.main.temp_min} °C</p>
           <p>
             location: {city.coord.lon}, {city.coord.lat}
           </p>

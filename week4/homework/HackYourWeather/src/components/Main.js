@@ -14,7 +14,7 @@ export default function Main() {
   const fetchWeather = (cityName) => {
     setLoading(true);
     fetch(
-      `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${process.env.REACT_APP_OPENWEATHERMAP_API_KEY}`
+      `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&units=metric&appid=${process.env.REACT_APP_OPENWEATHERMAP_API_KEY}`
     )
       .then((res) => res.json())
       .then((data) => {
