@@ -3,7 +3,7 @@ import React from "react";
 function Form({ onChange, onSubmit }) {
   return (
     <div>
-      <form action="" onSubmit={onSubmit}>
+      <form onSubmit={onSubmit}>
         <input
           className="inputCity"
           type="text"

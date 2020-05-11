@@ -38,6 +38,7 @@ export default function Main() {
     const remainCities = cities.filter((city) => city.id !== id);
     setCities(remainCities);
   };
+  console.log("ahmet", cities);
 
   if (isLoading) {
     return <div>Loading...</div>;
